@@ -1,20 +1,78 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# FutureX LMS - Shaping Tomorrow 🚀
 
-# Run and deploy your AI Studio app
+FutureX is a modern, fully responsive Learning Management System (LMS) application built to simulate a complete EdTech platform. It features a robust frontend architecture with role-based access control for Students, Trainers, and Administrators.
 
-This contains everything you need to run your app locally.
+![Project Preview](https://via.placeholder.com/1200x600?text=FutureX+Preview+Image) 
+*(Tip: Replace this link with a screenshot of your Home page)*
 
-View your app in AI Studio: https://ai.studio/apps/drive/1IG8aI-uJCLEfN3r3qY84sGqS20KsgJTI
+## ✨ Key Features
 
-## Run Locally
+### 🎓 Student Portal
+*   **Dashboard:** Track progress, attendance, and upcoming live sessions.
+*   **LMS Player:** Video player interface with syllabus navigation and notes.
+*   **Course Catalog:** Browse, filter, and enroll in courses.
+*   **Payments & Invoices:** Manage billing history and generate invoices.
+*   **Certificates:** Auto-generate course completion certificates.
+*   **Reviews:** Submit course ratings and feedback.
 
-**Prerequisites:**  Node.js
+### 👨‍🏫 Trainer Portal
+*   **Batch Management:** View enrolled students and course progress.
+*   **Session History:** Track conducted classes and teaching hours.
+*   **Material Upload:** Manage study resources (simulated upload).
+*   **Live Class:** Instant meeting generation interface.
 
+### 🛡️ Admin Portal
+*   **Analytics:** Interactive charts for revenue, enrollment, and user growth (Recharts).
+*   **User Management:** Create and manage Student and Trainer accounts.
+*   **Course Management:** Add, edit, or delete courses.
+*   **Review Moderation:** Approve or reject student testimonials.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 🎨 UI/UX
+*   **Dark Mode:** Fully supported system-wide dark/light theme.
+*   **Responsive:** optimized for mobile, tablet, and desktop.
+*   **Animations:** Smooth transitions using CSS and Tailwind.
+*   **Glassmorphism:** Modern design aesthetic.
+
+## 🛠️ Tech Stack
+
+*   **Framework:** [React](https://reactjs.org/) (v18+)
+*   **Build Tool:** [Vite](https://vitejs.dev/)
+*   **Language:** [TypeScript](https://www.typescriptlang.org/)
+*   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+*   **Icons:** [Lucide React](https://lucide.dev/)
+*   **Charts:** [Recharts](https://recharts.org/)
+*   **Routing:** [React Router DOM](https://reactrouter.com/)
+*   **Persistence:** LocalStorage (Zero-backend setup for easy demoing)
+
+## 🚀 Getting Started
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/your-username/futurex-lms.git
+    cd futurex-lms
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open in browser**
+    Navigate to `http://localhost:5173`
+
+## 🔐 Default Credentials (Mock Data)
+
+The app uses LocalStorage to simulate a database. You can register a new user or use these defaults:
+
+*   **Student:** `alex@student.futurex.com` / `password`
+*   **Trainer:** `sarah@trainer.futurex.com` / `password`
+*   **Admin:** `admin@futurex.com` / `password`
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
