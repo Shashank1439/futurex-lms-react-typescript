@@ -1,0 +1,8 @@
+{
+  "name": "Copy of FutureX ",
+  "description": "A comprehensive Learning Management System (LMS) for FutureX, featuring student, trainer, and admin portals, live classroom interfaces, and analytics.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
